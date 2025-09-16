@@ -1,0 +1,2 @@
+# GGZ enterprise architectuur werkomgeving
+Dit is een werkomgeving met een html export van architectuurmodel en bijbehorende views. Deze werkomgeving helpt enterprise-architecten binnen de GGZ om afhankelijkheden tussen onderwerpen inzichtelijk te maken die belangrijk zijn in het kader van databeschikbaarheid.

@@ -80,6 +80,16 @@ function bulkshow(showpage) {
         }
     }
 }
+
+//START - OPEN ELEMENT IN NIEUWE WINDOW
+document.addEventListener("DOMContentLoaded", function () {
+    // Alle <area>-links in diagrammen in een nieuw tabblad openen
+    var areas = document.querySelectorAll("map area[href$='.htm'], map area[href$='.html']");
+    areas.forEach(function(area) {
+        area.setAttribute("target", "_blank");
+    });
+});
+
 // START - TOOLTIP CODE
 function mapRectangleMouseOver(sender) {
 
@@ -108,7 +118,7 @@ function mapRectangleMouseOver(sender) {
         $(".previewPanel").html("");
         $(".previewPanel").append(notes);
         
-        $(".previewPanel").css("margin-top", (Number(array[1]) + 50) + "px");
+        $(".previewPanel").css("margin-top", (Number(array[1]) + 40) + "px");
         $(".previewPanel").css("margin-left", (Number(array[2]) - 410) + "px");
         $(".previewPanel").stop(true, true).fadeIn(400); // stop oude animaties, dan fade in
     });

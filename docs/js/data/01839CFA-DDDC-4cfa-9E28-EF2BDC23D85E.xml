@@ -1,6 +1,4 @@
-tocTab[tocTab.length] = new Array("0.2:1", "", "01. Bedrijfsfuncties GGZ", "EARoot/EA2/EA464.htm", "175.png", "36", "0", "", "Logical diagram0","{9F0E9A56-F47E-48be-830D-31AAF44F51EA}");
-tocTab[tocTab.length] = new Array("0.2:2", "", "02. Zorgverleners GGZ", "EARoot/EA2/EA466.htm", "175.png", "144", "0", "", "Logical diagram0","{2CB45FED-E783-49e8-9BF3-EB95F1EFB8A9}");
-tocTab[tocTab.length] = new Array("0.2:3", "", "03. Keten- en Netwerkpartners", "EARoot/EA2/EA468.htm", "175.png", "147", "0", "", "Logical diagram0","{EECD78F5-663C-4150-BF72-B40FD89BE856}");
-tocTab[tocTab.length] = new Array("0.2:4", "", "04. Infomatie uitwissel use cases", "EARoot/EA2/EA470.htm", "175.png", "149", "0", "", "Logical diagram0","{812320F5-FF09-4a7e-94F0-459D1BC7C49C}");
-tocTab[tocTab.length] = new Array("0.2:5", "", "Uitwisseling met - CIBG 2", "EARoot/EA2/EA473.htm", "9F0DDA8A-5_ArchiMate_BusinessService.png", "E1673", "0", "", "Activity0","{62920089-9BDD-4456-999B-7AC3C317AC29}");
-tocTab[tocTab.length] = new Array("0.2:6", "", "Uitwisseling met - CIBG 3", "EARoot/EA2/EA474.htm", "9F0DDA8A-5_ArchiMate_BusinessService.png", "E1674", "0", "", "Activity0","{406EA4FB-62A8-47bc-8693-305EA5E18BD0}");
+tocTab[tocTab.length] = new Array("0.2:1", "", "01. Bedrijfsfuncties GGZ", "EARoot/EA2/EA466.htm", "175.png", "36", "0", "", "Logical diagram0","{9F0E9A56-F47E-48be-830D-31AAF44F51EA}");
+tocTab[tocTab.length] = new Array("0.2:2", "", "02. Zorgverleners GGZ", "EARoot/EA2/EA468.htm", "175.png", "144", "0", "", "Logical diagram0","{2CB45FED-E783-49e8-9BF3-EB95F1EFB8A9}");
+tocTab[tocTab.length] = new Array("0.2:3", "", "03. Keten- en Netwerkpartners", "EARoot/EA2/EA470.htm", "175.png", "147", "0", "", "Logical diagram0","{EECD78F5-663C-4150-BF72-B40FD89BE856}");
+tocTab[tocTab.length] = new Array("0.2:4", "", "04. Infomatie uitwissel use cases", "EARoot/EA2/EA472.htm", "175.png", "149", "0", "", "Logical diagram0","{812320F5-FF09-4a7e-94F0-459D1BC7C49C}");

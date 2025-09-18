@@ -106,7 +106,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-
 // START - TOOLTIP CODE
 function mapRectangleMouseOver(sender) {
 
@@ -132,11 +131,20 @@ function mapRectangleMouseOver(sender) {
 
         var array = sender.coords.split(',');
 
+        // aangepaste berekening: middenpunt in plaats van hoeken
+        var x1 = Number(array[0]);
+        var y1 = Number(array[1]);
+        var x2 = Number(array[2]);
+        var y2 = Number(array[3]);
+
+        var centerX = (x1 + x2) / 2;
+        var centerY = (y1 + y2) / 2;
+
         $(".previewPanel").html("");
         $(".previewPanel").append(notes);
         
-        $(".previewPanel").css("margin-top", (Number(array[1]) + 40) + "px");
-        $(".previewPanel").css("margin-left", (Number(array[2]) - 410) + "px");
+        $(".previewPanel").css("margin-top", centerY + "px");
+        $(".previewPanel").css("margin-left", centerX + "px");
         $(".previewPanel").stop(true, true).fadeIn(400); // stop oude animaties, dan fade in
     });
 

@@ -131,37 +131,38 @@ function mapRectangleMouseOver(sender) {
 
         var array = sender.coords.split(',');
 
-        // middenpunt berekenen
+        // coördinaten omzetten naar getallen
         var x1 = Number(array[0]);
         var y1 = Number(array[1]);
         var x2 = Number(array[2]);
         var y2 = Number(array[3]);
 
-        var centerX = (x1 + x2) / 2;
+        // horizontaal links van het object, verticaal gecentreerd
+        var leftX = x1;
         var centerY = (y1 + y2) / 2;
 
         $(".previewPanel").html("");
         $(".previewPanel").append(notes);
 
-        // offsets instelbaar maken
+        // offsets instelbaar
         var offsetX = 0;  // positief = naar rechts, negatief = naar links
         var offsetY = 0;  // positief = naar beneden, negatief = naar boven
 
         $(".previewPanel").css({
             "position": "absolute",
             "top": (centerY + offsetY) + "px",
-            "left": (centerX + offsetX) + "px",
-            "transform": "translate(-50%, -50%)"
+            "left": (leftX + offsetX) + "px",
+            "transform": "translate(-100%, -50%)"
         });
 
-        $(".previewPanel").stop(true, true).fadeIn(400); // stop oude animaties, dan fade in
+        $(".previewPanel").stop(true, true).fadeIn(400);
     });
 
 }
 
 function mapRectangleMouseOut(sender) {
     if ($(".previewPanel:hover").length === 0) {
-        $(".previewPanel").stop(true, true).fadeOut(400); // stop oude animaties, dan fade out
+        $(".previewPanel").stop(true, true).fadeOut(400);
     }
 }
 

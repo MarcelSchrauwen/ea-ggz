@@ -137,10 +137,6 @@ function mapRectangleMouseOver(sender) {
         var x2 = Number(array[2]);
         var y2 = Number(array[3]);
 
-        // horizontaal links van het object, verticaal gecentreerd
-        var leftX = x1;
-        var centerY = (y1 + y2) / 2;
-
         $(".previewPanel").html("");
         $(".previewPanel").append(notes);
 
@@ -148,11 +144,19 @@ function mapRectangleMouseOver(sender) {
         var offsetX = 0;  // positief = naar rechts, negatief = naar links
         var offsetY = 0;  // positief = naar beneden, negatief = naar boven
 
+        // positie van de afbeelding op de pagina
+        var $img = $(sender).closest('map').prev('img');
+        var imgOffset = $img.offset();
+
+        // horizontaal links van het object, verticaal gecentreerd
+        var leftX = x1 + imgOffset.left + offsetX;
+        var centerY = ((y1 + y2) / 2) + imgOffset.top + offsetY;
+
         $(".previewPanel").css({
             "position": "absolute",
-            "top": (centerY + offsetY) + "px",
-            "left": (leftX + offsetX) + "px",
-            "transform": "translate(0%, 0%)"
+            "top": centerY + "px",
+            "left": leftX + "px",
+            "transform": "translate(0%, -50%)"
         });
 
         $(".previewPanel").stop(true, true).fadeIn(400);

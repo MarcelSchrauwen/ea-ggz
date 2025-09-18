@@ -141,7 +141,7 @@ function mapRectangleMouseOver(sender) {
         $(".previewPanel").append(notes);
 
         // offsets instelbaar
-        var offsetX = 0;  // positief = naar rechts, negatief = naar links
+        var offsetX = -400px;  // positief = naar rechts, negatief = naar links
         var offsetY = 0;  // positief = naar beneden, negatief = naar boven
 
         // positie van de afbeelding op de pagina

@@ -131,7 +131,7 @@ function mapRectangleMouseOver(sender) {
 
         var array = sender.coords.split(',');
 
-        // aangepaste berekening: middenpunt in plaats van hoeken
+        // middenpunt berekenen
         var x1 = Number(array[0]);
         var y1 = Number(array[1]);
         var x2 = Number(array[2]);
@@ -142,9 +142,18 @@ function mapRectangleMouseOver(sender) {
 
         $(".previewPanel").html("");
         $(".previewPanel").append(notes);
-        
-		$(".previewPanel").css("margin-top", (centerY - 50) + "px");
-		$(".previewPanel").css("margin-left", (centerX - 200) + "px");
+
+        // offsets instelbaar maken
+        var offsetX = 0;  // positief = naar rechts, negatief = naar links
+        var offsetY = 0;  // positief = naar beneden, negatief = naar boven
+
+        $(".previewPanel").css({
+            "position": "absolute",
+            "top": (centerY + offsetY) + "px",
+            "left": (centerX + offsetX) + "px",
+            "transform": "translate(-50%, -50%)"
+        });
+
         $(".previewPanel").stop(true, true).fadeIn(400); // stop oude animaties, dan fade in
     });
 

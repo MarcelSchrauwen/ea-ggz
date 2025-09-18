@@ -152,7 +152,7 @@ function mapRectangleMouseOver(sender) {
             "position": "absolute",
             "top": (centerY + offsetY) + "px",
             "left": (leftX + offsetX) + "px",
-            "transform": "translate(-100%, -50%)"
+            "transform": "translate(0%, -50%)"
         });
 
         $(".previewPanel").stop(true, true).fadeIn(400);

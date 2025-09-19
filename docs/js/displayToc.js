@@ -142,7 +142,7 @@ function mapRectangleMouseOver(sender) {
 
         // offsets instelbaar
         var offsetX = -405;  // positief = x pixels naar rechts, negatief = naar links
-        var offsetY = -50;  // positief = x pixels naar beneden, negatief = naar boven
+        var offsetY = -85;  // positief = x pixels naar beneden, negatief = naar boven
 
         // positie van de afbeelding op de pagina
         var $img = $(sender).closest('map').prev('img');

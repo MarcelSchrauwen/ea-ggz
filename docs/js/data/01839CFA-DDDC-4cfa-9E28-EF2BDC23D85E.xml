@@ -1,4 +1,3 @@
-tocTab[tocTab.length] = new Array("0.1:1", "", "01. Bedrijfsfuncties GGZ", "EARoot/EA1/EA1.htm", "175.png", "36", "0", "", "Logical diagram0","{9F0E9A56-F47E-48be-830D-31AAF44F51EA}");
-tocTab[tocTab.length] = new Array("0.1:2", "", "02. Zorgverleners GGZ", "EARoot/EA1/EA3.htm", "175.png", "144", "0", "", "Logical diagram0","{2CB45FED-E783-49e8-9BF3-EB95F1EFB8A9}");
-tocTab[tocTab.length] = new Array("0.1:3", "", "03. Keten- en Netwerkpartners", "EARoot/EA1/EA5.htm", "175.png", "147", "0", "", "Logical diagram0","{EECD78F5-663C-4150-BF72-B40FD89BE856}");
-tocTab[tocTab.length] = new Array("0.1:4", "", "04. Infomatie uitwissel use cases", "EARoot/EA1/EA7.htm", "175.png", "149", "0", "", "Logical diagram0","{812320F5-FF09-4a7e-94F0-459D1BC7C49C}");
+tocTab[tocTab.length] = new Array("0.1.1", "1", "01. Bedrijfsactiviteiten GGZ", "EARoot/EA1/EA1/EA7.htm", "4.png", "", "", "{863FC56F-4C19-48aa-B6AD-BC6BA30AC323}", "Package");
+tocTab[tocTab.length] = new Array("0.1.2", "1", "02. Keten- en Netwerk partners", "EARoot/EA1/EA2/EA12.htm", "4.png", "", "", "{D174D092-DDA7-487d-9E33-DC7C4DD66AFE}", "Package");
+tocTab[tocTab.length] = new Array("0.1.3", "1", "03. Databeschikbaarheid", "EARoot/EA1/EA3/EA15.htm", "4.png", "", "", "{4B998CB2-C5A0-4ddd-A2E2-248463211F69}", "Package");

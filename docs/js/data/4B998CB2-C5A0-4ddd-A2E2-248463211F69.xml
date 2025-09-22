@@ -1,5 +1,5 @@
-tocTab[tocTab.length] = new Array("0.1.3:1", "", "01. Infomatie uitwissel use cases", "EARoot/EA1/EA3/EA13.htm", "175.png", "149", "0", "", "Logical diagram0","{812320F5-FF09-4a7e-94F0-459D1BC7C49C}");
-tocTab[tocTab.length] = new Array("0.1.3:2", "", "02. Generieke communicatiepatronen", "EARoot/EA1/EA3/EA15.htm", "175.png", "154", "0", "", "Logical diagram0","{A0C4A52D-2788-487a-AF53-77F9F527831D}");
-tocTab[tocTab.length] = new Array("0.1.3:3", "", "03. Generieke functies", "EARoot/EA1/EA3/EA17.htm", "175.png", "152", "0", "", "Logical diagram0","{BCEE4890-0C46-4c69-8CD0-26D58DF4D511}");
+tocTab[tocTab.length] = new Array("0.1.3:1", "", "01. Infomatie uitwissel use cases GGZ", "EARoot/EA1/EA3/EA13.htm", "175.png", "149", "0", "", "Logical diagram0","{812320F5-FF09-4a7e-94F0-459D1BC7C49C}");
+tocTab[tocTab.length] = new Array("0.1.3:2", "", "02. Generieke functies", "EARoot/EA1/EA3/EA15.htm", "175.png", "152", "0", "", "Logical diagram0","{BCEE4890-0C46-4c69-8CD0-26D58DF4D511}");
+tocTab[tocTab.length] = new Array("0.1.3:3", "", "03. Generieke communicatiepatronen", "EARoot/EA1/EA3/EA17.htm", "175.png", "154", "0", "", "Logical diagram0","{A0C4A52D-2788-487a-AF53-77F9F527831D}");
 tocTab[tocTab.length] = new Array("0.1.3:4", "", "04. Generieke use cases", "EARoot/EA1/EA3/EA19.htm", "175.png", "155", "0", "", "Logical diagram0","{5684DFDE-D396-40e3-BB33-6777CB4F704D}");
 tocTab[tocTab.length] = new Array("0.1.3:5", "", "05. Landelijke voorzieningen", "EARoot/EA1/EA3/EA21.htm", "175.png", "153", "0", "", "Logical diagram0","{836D8E03-0F05-4d4b-A5DF-D4F4919897CB}");

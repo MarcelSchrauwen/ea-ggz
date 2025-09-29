@@ -159,14 +159,14 @@ function mapRectangleMouseOver(sender) {
             "transform": "translate(0%, -50%)"
         });
 
-        $(".previewPanel").stop(true, true).fadeIn(100);
+        $(".previewPanel").stop(true, true).fadeIn(800);
     });
 
 }
 
 function mapRectangleMouseOut(sender) {
     if ($(".previewPanel:hover").length === 0) {
-        $(".previewPanel").stop(true, true).fadeOut(100);
+        $(".previewPanel").stop(true, true).fadeOut(800);
     }
 }
 

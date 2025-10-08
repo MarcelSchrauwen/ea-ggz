@@ -335,7 +335,8 @@ UL {
 	margin-top: 17px;
 	border: 1px solid #999999;
 	height: auto;
-	overflow: scroll;
+	/* overflow: scroll; */
+	overflow: auto;
 }
 .ItemData {
 	overflow: auto;

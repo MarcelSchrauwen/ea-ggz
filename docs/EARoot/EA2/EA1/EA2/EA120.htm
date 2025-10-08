@@ -211,23 +211,23 @@
 		<div class="ItemBody" id="AssociationsFromTable">
 			<table class="Table ea_table">
 				<tr>
-					<td width="20%" class="TableHeading">Element</td>
-					<td width="5%" class="TableHeading">Richting</td>
-					<td width="30%" class="TableHeading">Type relatie</td>
 					<td width="45%" class="TableHeading">Notities</td>
+					<td width="25%" class="TableHeading">Type relatie</td>
+					<td width="5%" class="TableHeading">Richting</td>
+					<td width="25%" class="TableHeading">Element</td>
 				</tr>
 				<tr>
 					<td width="45%" class="TableRow" valign="top">
 						<div class="ObjectDetailsNotes">Bedrijfsfunctie aanmelding bevat de bedrijfsactiviteit afnemen anamnese.&lt;br/&gt;</div>
 
 					</td>
-					<td width="20%" class="TableRow" valign="top">
+					<td width="25%" class="TableRow" valign="top">
 						«ArchiMate_Aggregation» 
 					</td>
 					<td width="5%" class="TableRow" valign="top">
 						From
 					</td>
-					<td width="30%" class="TableRow" valign="top">
+					<td width="25%" class="TableRow" valign="top">
 						<a href="../EA1/EA79.htm">«ArchiMate_BusinessFunction» Aanmelding</a>
 					</td>
 				</tr>
@@ -281,41 +281,64 @@
 		</div>		<div class="ItemBody" id="LinksTable">
 			<table class="Table ea_table">
 				<tr>
-					<td width="30%" class="TableHeading">Object</td>
-					<td width="10%" class="TableHeading">Type</td>
-					<td width="10%" class="TableHeading">Connection</td>
-					<td width="10%" class="TableHeading">Direction</td>
-					<td width="40%" class="TableHeading">Notes</td>
+					<td width="45%" class="TableHeading">Notities</td>
+					<td width="25%" class="TableHeading">Type relatie</td>
+					<td width="5%" class="TableHeading">Richting</td>
+					<td width="25%" class="TableHeading">Element</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA3/EA233.htm">«ArchiMate_BusinessObject» Decursus</a></td>
-					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
-					<td width="10%" class="TableRow" valign="top">Dependency</td>
-					<td width="10%" class="TableRow" valign="top">To</td>
-					<td width="40%" class="TableRow" valign="top">Afnemen anamnese heeft als uitvoer het informatie-object <i>Decursus</i>.</td>
+					<td width="45%" class="TableRow" valign="top">
+						Afnemen anamnese heeft als uitvoer het informatie-object <i>Decursus</i>.
+					</td>
+					<td width="25%" class="TableRow" valign="top">
+						&lt;&lt;ArchiMate_Access&gt;&gt;
+					</td>
+					<td width="5%" class="TableRow" valign="top">
+						To
+					</td>
+					<td width="25%" class="TableRow" valign="top">
+						<a href="../EA3/EA233.htm">«ArchiMate_BusinessObject» Decursus</a>
+					</td>
+				</tr>				<tr>
+					<td width="45%" class="TableRow" valign="top">
+						Afnemen anamnese heeft als uitvoer het informatie-object <i>Anamnese</i>.
+					</td>
+					<td width="25%" class="TableRow" valign="top">
+						&lt;&lt;ArchiMate_Access&gt;&gt;
+					</td>
+					<td width="5%" class="TableRow" valign="top">
+						To
+					</td>
+					<td width="25%" class="TableRow" valign="top">
+						<a href="../EA3/EA219.htm">«ArchiMate_BusinessObject» Anamnese</a>
+					</td>
+				</tr>				<tr>
+					<td width="45%" class="TableRow" valign="top">
+						Afnemen anamnese heeft als uitvoer het informatie-object <i>Zorgvraag</i>.
+					</td>
+					<td width="25%" class="TableRow" valign="top">
+						&lt;&lt;ArchiMate_Access&gt;&gt;
+					</td>
+					<td width="5%" class="TableRow" valign="top">
+						To
+					</td>
+					<td width="25%" class="TableRow" valign="top">
+						<a href="../EA3/EA326.htm">«ArchiMate_BusinessObject» Zorgvraag</a>
+					</td>
+				</tr>				<tr>
+					<td width="45%" class="TableRow" valign="top">
+						Afnemen anamnese heeft als uitvoer het informatie-object <i>Pati&#235;nt (basis medische gegevens)</i>.
+					</td>
+					<td width="25%" class="TableRow" valign="top">
+						&lt;&lt;ArchiMate_Access&gt;&gt;
+					</td>
+					<td width="5%" class="TableRow" valign="top">
+						To
+					</td>
+					<td width="25%" class="TableRow" valign="top">
+						<a href="../EA3/EA287.htm">«ArchiMate_BusinessObject» Patiënt (basis medische gegevens)</a>
+					</td>
 				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA3/EA219.htm">«ArchiMate_BusinessObject» Anamnese</a></td>
-					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
-					<td width="10%" class="TableRow" valign="top">Dependency</td>
-					<td width="10%" class="TableRow" valign="top">To</td>
-					<td width="40%" class="TableRow" valign="top">Afnemen anamnese heeft als uitvoer het informatie-object <i>Anamnese</i>.</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA3/EA326.htm">«ArchiMate_BusinessObject» Zorgvraag</a></td>
-					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
-					<td width="10%" class="TableRow" valign="top">Dependency</td>
-					<td width="10%" class="TableRow" valign="top">To</td>
-					<td width="40%" class="TableRow" valign="top">Afnemen anamnese heeft als uitvoer het informatie-object <i>Zorgvraag</i>.</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA3/EA287.htm">«ArchiMate_BusinessObject» Patiënt (basis medische gegevens)</a></td>
-					<td width="10%" class="TableRow" valign="top">BusinessObject</td>
-					<td width="10%" class="TableRow" valign="top">Dependency</td>
-					<td width="10%" class="TableRow" valign="top">To</td>
-					<td width="40%" class="TableRow" valign="top">Afnemen anamnese heeft als uitvoer het informatie-object <i>Pati&#235;nt (basis medische gegevens)</i>.</td>
-				</tr>
-
 			</table>
 		</div>
 	</div>
